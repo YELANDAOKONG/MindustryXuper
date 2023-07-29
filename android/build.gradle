@@ -46,6 +46,7 @@ android{
         androidTest.setRoot('tests')
     }
 
+
     packagingOptions{
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
@@ -55,7 +56,8 @@ android{
         Integer vcode = props['androidBuildCode']?.toInteger() ?: 1
         def versionNameResult = "$versionNumber-$versionType-${getBuildVersion().replace(" ", "-")}"
 
-        applicationId "io.anuke.mindustry"
+        //applicationId "io.anuke.mindustry"
+        applicationId "xyz.yldk.io.anuke.mindustry"
         minSdkVersion 14
         targetSdkVersion 33
         
