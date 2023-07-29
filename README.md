@@ -9,6 +9,22 @@ _[Trello Board](https://trello.com/b/aE2tcUwF/mindustry-40-plans)_
 _[Wiki](https://mindustrygame.github.io/wiki)_  
 _[Javadoc](https://mindustrygame.github.io/docs/)_ 
 
+# 关于 Mindustry Xuper 项目
+
+由于未知原因，中国大陆玩家在原版 Mindustry 中无法正常获取模组列表和社区服务器列表。
+
+经过检查，发现 Mindustry 的所有内容都托管在 Github 上，然而 Github 在中国大陆被墙，因此造成无法访问的问题。
+
+本项目修改了 Mindustry 游戏中的链接，使其指向我自己搭建的镜像站。
+
+（镜像站会定时自动从官方 Github 仓库同步更新所有文件）
+
+由于备案问题，因此在国内访问镜像站仍然小概率无法访问，不过绝大多数情况都能正常连接到镜像站。
+
+（模组下载没有经过镜像站，因此仍然可能出现无法访问的情况）
+
+
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md).
