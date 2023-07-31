@@ -21,6 +21,21 @@
             android:appCategory="game"
             android:label="@string/app_name"
             android:fullBackupContent="@xml/backup_rules">
+
+
+        <provider
+                android:name="mindustry.android.AndroidDocumentProvider"
+                android:authorities="mindustry.android.documents"
+                android:exported="true"
+                android:grantUriPermissions="true"
+                android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+            </intent-filter>
+        </provider>
+
+
+
         <meta-data android:name="android.max_aspect" android:value="2.1"/>
         <activity
                 android:name="mindustry.android.AndroidLauncher"

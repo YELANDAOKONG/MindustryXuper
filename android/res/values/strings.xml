@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MindustryXuper</string>
+    <string name="files_title">MindustryXuper</string>
+    <string name="files_summary">Mindustry Game Data</string>
 </resources>
